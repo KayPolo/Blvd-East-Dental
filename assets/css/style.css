@@ -1,0 +1,264 @@
+
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:300,400,700';
+	
+/* home page */
+	.head-image{
+		width: 100vw;
+		max-height: 70vh;
+		margin-left: 0vw;
+		object-fit: cover;
+		object-position:0 10%;
+		z-index: 1;
+	}
+
+	.logo-container{
+		position: absolute;
+		width: 25vw;
+		height: auto;
+		margin-left: 23vw;
+		margin-top: 10vh;
+		justify-content: center;
+		text-align: center;
+
+	}
+
+	.logo-image{
+		position: relative;
+		width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+		
+	}
+
+	.established{
+		font-family: 'Work Sans', sans-serif;
+		font-weight: 300;
+		font-size: 1.5vw;
+		top: 20px;
+		color: dimgray;
+	}
+
+	.line {
+		width: 90%;
+		height: 2px;
+		margin-left: 5%;
+		background-color: #604B9F;
+		position: relative;
+		margin-bottom: 15px;
+	}
+
+	.slogan-image{
+		position: relative;
+		width: 130%;
+		height: auto;
+		margin-left: -15%;
+		
+	}
+
+	.photo-container{
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.intro{
+		width: 100vw;
+		height: 500px;
+		margin-left: 0vw;
+		z-index: 1;
+		background-color: white;
+		position: relative;
+	}
+
+
+/* team page */
+	.team{
+		width: 100vw;
+		height: 500px;
+		margin-left: 0vw;
+		z-index: 1;
+		background-color: orange;
+		position: relative;
+	}
+
+/* services page */
+	.services{
+		width: 100vw;
+		height: 500px;
+		margin-left: 0vw;
+		z-index: 1;
+		background-color: aquamarine;
+		position: relative;
+	}
+
+/* testimonials page */
+	.testimonials{
+		width: 100vw;
+		height: 500px;
+		margin-left: 0vw;
+		z-index: 1;
+		background-color: teal;
+		position: relative;
+	}
+
+/* appointment page */
+	.appointment{
+		width: 100vw;
+		height: 500px;
+		margin-left: 0vw;
+		z-index: 1;
+		background-color: lightblue;
+		position: relative;
+	}
+
+/* contact page */
+	.contact{
+		width: 100vw;
+		height: 500px;
+		margin-left: 0vw;
+		z-index: 1;
+		background-color: pink;
+		position: relative;
+	}
+
+
+/* menu page */
+	.menubar{
+		background-color: white;
+		width: 100vw;
+		height: 50px;
+		margin-left: 0;
+		margin-top: -50px;
+		opacity: 0.7;
+		z-index: 10;
+		
+	}
+
+	.fixed{
+		position: fixed;
+		top: 50px;
+		width: 100%;
+
+	}
+	.menubar nav{
+		align-content: center;
+		text-decoration: none;
+		text-align: center;
+		list-style-type: none;
+		padding-top: 11px;
+		width: 70vw;
+		height: 50px;
+		margin-left: 15vw;
+		margin-top: -50px;
+		z-index: 20; 
+
+	}
+
+	.menubar nav li{
+		position: relative;
+		display: inline-block;
+		padding-left: 1vw;
+		padding-right: 1vw;
+
+	}
+
+	.submenu{
+		text-decoration: none;
+		color: #604B9F;
+		background-color: none;
+		font-size: 20px;
+		font-family: 'Work Sans', sans-serif;
+		padding: 13px;
+
+	}
+
+	.submenu:hover{
+		background-color: #604B9F;
+		color: white;
+		text-decoration: none;
+	}
+
+	.footer{
+		opacity: 0;
+		width: 100vw;
+		height: auto;
+		bottom: 0;
+		position: fixed;
+		z-index: 30;
+		transition: 0.5s;
+		
+	}
+	.footer-background{
+		background-color: #604B9F;
+		opacity: 0.2;
+		width: 100%;
+		height: 15vh;
+		z-index: 32;
+	
+	}
+
+	.logo{
+		width: 200px;
+		height: auto;
+		margin-top: 2vh;
+		margin-bottom: 2vh;
+		position: relative;
+		z-index: 40;
+		display: inline-block;
+		float: left;
+		
+	}
+	.footer-container{
+		width: 60vw;
+		height: auto;
+		background-color: transparent;
+		position: absolute;
+		margin-left: 20vw;
+	
+
+	}
+
+	.address{
+		width: 15vw;
+		height: auto;
+		z-index: 42;
+		position:relative;
+		display: inline-block;
+		margin-left: 4vw;
+		margin-top: 2.2vh;
+		float: left;
+
+	}
+
+	.address p{
+		color: #604B9F;
+		font-family: 'Work Sans', sans-serif;
+		font-size: 16px;
+		text-align: center;
+	}
+	.phone{
+		font-weight: 700;
+	}
+
+	.info1{
+		width: 20vw;
+		height: auto;
+		z-index: 42;
+		position:relative;
+		display: inline-block;
+		margin-left: 5vw;
+		margin-top: 2.2vh;
+
+	}
+
+	.info1 p{
+		color: black;
+		font-family: 'Work Sans', sans-serif;
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.display{
+		display: all;
+		opacity: 1;
+		transition: 0.5s;
+	}
